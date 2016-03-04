@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	media := netflixroulette.GetMediaByName("")
+	media := netflixroulette.GetMediaByName("The Avengers")
 	fmt.Printf("%s is a %s\n", media.ShowTitle, media.GetReadableMediaType())
 
 	director := netflixroulette.GetDirectorByName("Quentin Tarantino")
